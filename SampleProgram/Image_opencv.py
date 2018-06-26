@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-color = cv2.imread("cat.jpg", 1) #if you encountered error please use the exact path location
+color = cv2.imread("cat.jpg", 1) #if you encountered error please use the exact path location 
 cv2.imshow("Image",color)
 cv2.moveWindow("Image",0,0)
 print(color.shape)
